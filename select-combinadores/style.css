@@ -1,0 +1,40 @@
+/*-------------Combinadores------------*/
+
+h2, a, h3{
+    color: red;
+    font-family: Arial;
+}
+
+/*-------------Combinador de descendiente------------*/
+
+.contenedor p{
+color: blue;
+}
+
+/*-------------Combinador de hijo------------*/
+
+.contenedor > p{
+color: green;
+font-size: 20px;
+font-weight: bold;
+}
+
+.contenedor a{
+    text-decoration: none;
+    color: firebrick;
+}
+
+.contenedor > a{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h2 + p{
+    color: gold;
+    font-weight: bold;
+}
+
+h3 ~ p{
+    color: indigo;
+    
+}

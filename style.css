@@ -1,0 +1,35 @@
+/*-------------Selectores------------*/
+
+/*-------------Selectores de etiqueta------------*/
+
+nav{
+    background-color:steelblue;
+    border: 4px solid red;
+}
+
+h1{
+    background-color: blueviolet;
+}
+
+/*-------------Selectores de clase------------*/
+
+.titulo{
+text-align: center;
+color: tomato;
+}
+
+.titulo-borde{
+    border: 2px solid black;
+}
+
+/*-------------Selectores de id------------*/
+
+#secction{
+    background-color: aqua;
+}
+
+#parrafo{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}

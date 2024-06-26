@@ -1,0 +1,29 @@
+/*-------------Cascada------------*/
+
+header{
+    background-color: yellow;
+}
+
+header{
+    background-color: red;
+}
+
+/*-------------Especificidad------------*/
+
+/*
+inline = 1000
+id = 100
+class = 10
+etiqueta = 1
+*/
+
+.titulo{
+    color: blue;
+}
+
+#titulo{
+    color: yellowgreen;
+}
+h2{
+    color: chocolate;
+}
